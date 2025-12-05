@@ -1,0 +1,6 @@
+---
+- hosts: Managed
+  become: yes
+  roles:
+    - git
+    - docker
