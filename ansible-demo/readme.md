@@ -80,7 +80,7 @@ ansible -i inventory.ini all -m ping
 
 ----------------------------
 
-
+##########
 ansible-demo/
 ├── inventory.ini
 ├── site.yml             # Main playbook (calls roles)
@@ -98,7 +98,7 @@ ansible-demo/
 ├── group_vars/
 │   └── managedvars.yml       # Variables for all managed server hosts
 
-
+###############
 -------------
 # run
 
